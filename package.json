@@ -1,0 +1,52 @@
+{
+  "name": "node-red-contrib-scp-iot-http",
+  "version": "0.1.0",
+  "description": "A Node-RED node for pusching data into the SAP Cloud Platform via HTTP API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihnen42/node-red-contrib-sap-cloud-platform-iot-http-api.git"
+  },
+  "keywords": [
+    "node-red",
+    "http",
+    "https",
+    "request",
+    "proxy",
+    "sap",
+    "cloud",
+    "platform",
+    "hana",
+    "iot"
+  ],
+  "author": {
+    "name": "Hannes Keil",
+    "email": "hannes.keil@sap.com",
+    "url": "https://sap.com"
+  },
+  "contributors": [
+      {"name": "Hannes Keil",
+       "email": "hannes.keil@sap.com",
+       "url": "https://sap.com"
+      },
+      { "name": "Lukas Schoemig",
+        "email": "lukas.schoemig@sap.com",
+        "url": "https://sap.com"
+      }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "node-red": {
+    "nodes": {
+      "scp-iot-http": "scp-iot-http.js"
+    }
+  },
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "homepage": "https://github.com/mikakaraila/node-red-contrib-opcua#readme",
+  "scripts": {
+    "test": "karma start opcua.conf.js --log-level debug --single-run"
+  }
+}
